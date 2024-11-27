@@ -25,6 +25,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 
 /* Header */
 header {
@@ -280,18 +284,18 @@ hr {
     }
 
     #benefits-image {
-        order:0;
+        order:0
     }
 
     #benefits-mental {
         order:1;
     }
 
-    #benfits-mental>div {
+    #benefits-mental > div {
         align-self: flex-start;
     }
 
-    #benefits-physical>div {
+    #benefits-physical > div {
         align-self: flex-end;
     }
 
